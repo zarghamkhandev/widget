@@ -1,0 +1,3 @@
+mutation vote($value: String!, $projectId: String!) {
+  vote(value: $value, projectId: $projectId)
+}
